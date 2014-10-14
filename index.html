@@ -24,22 +24,33 @@
   <body>
     <div class="container">
       <h1>Hello, Bootstrap world!</h1>
-      <p class="lead">Let's make some responsive magic</p>
-      <ul>
-        <li><a href="./grids.html">Grids</a></li>
-        <li><a href="./theme.html">Theme</a></li>
-        <li><a href="./navbar.html">Navbar</a></li>
-        <li><a href="./responsive.html">Responsive</a></li>
-      </ul>
+      <p class="lead awesome">Let's make some responsive magic</p>
+      <nav role="navigation">
+        <ul>
+          <li><a href="./grids.html">Grids</a></li>
+          <li><a href="./theme.html">Theme</a></li>
+          <li><a href="./navbar.html">Navbar</a></li>
+          <li><a href="./responsive.html">Responsive</a></li>
+        </ul>
+      </nav>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-4 col-xs-8" style="background: red;">
           content for column 1
         </div>
-        <div class="col-md-6">
+        <div class="col-md-4 col-xs-4" style="background: yellow;">
           content for column 2
+        </div>
+        <div class="col-md-4 col-xs-12" style="background: blue;">
+          content for column 3
         </div>
       </div><!-- /row -->
 
+    </div>
+
+    <div class="container">
+      <footer>
+        <p>&copy; 2014 - Jacob A. Morris</p>
+      </footer>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
